@@ -13,9 +13,7 @@ df["cat_feat"] = pd.factorize(df["cat_feat"])[0]
 
 # add noise to categorical feature
 def add_noise_categorical(feature, sample_pct, noise_scale):
-    """
-    Add Gaussian noise to a categorical feature.
-    """
+    # Add Gaussian noise to a categorical feature.
     n_samples = int(len(feature) * sample_pct / 100)
     samples = np.random.choice(feature, size=n_samples, replace=True)
     noise = np.random.normal(scale=noise_scale, size=len(samples))
@@ -29,9 +27,7 @@ X_noisy_categorical = add_noise_categorical(X_categorical, 50, 0.1)
 
 # add noise to numerical features
 def add_noise_numerical(X, sample_pct, noise_scale):
-    """
-    Add Gaussian noise to numerical features in a dataset.
-    """
+    # Add Gaussian noise to numerical features in a dataset.
     X_noisy = X.copy()
     numerical_cols = [0, 1]  # column indices for numerical columns
     for col in numerical_cols:
