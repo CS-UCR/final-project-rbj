@@ -8,4 +8,4 @@ In order to achieve an adequate level of protective privacy for the individuals 
 privacy that are added in order to ensure this. Data anonymization is pivotal to ensuring that data is not breached and allows for protection against public exposure to 
 private information. Such anonymization is executed through the use of various different algorithms and techniques. Most typically it is found that the differential 
 privacy method is used in interactive frameworks. This particular article covers the adoption of a non-interactive framework which utilizes an algorithm that fulfills 
-requirements for $\epsilon-differential privacy. 
+requirements for $\epsilon$-differential privacy. 
