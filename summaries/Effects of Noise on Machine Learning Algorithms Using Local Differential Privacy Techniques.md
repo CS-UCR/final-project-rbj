@@ -12,26 +12,18 @@ The article suggest to use mathematical noise and use randomly generated values 
 
 ### Gaussian random variable 
 Probability density function:   
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.image?p(x)=\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}" title="PDF of a Gaussian random variable" />
-</p>
-
+$$p(x) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
 where μ is the mean of the distribution and σ is the standard deviation.
 
 ### Laplacian Mechanism
 
 The Laplace Distribution (centred at 0) with scale b is the distribution with probability density function:
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.image?p(x)=\frac{1}{2b}e^{-\frac{|x|}{b}}" title="PDF of a Laplace Distribution" />  
-</p>
-
+$$p(x) = \frac{1}{2b}e^{-\frac{|x|}{b}}$$
 where |x| is the absolute value of x, and b is the scale parameter that controls the spread of the distribution. 
 
 ### Pearson Correlation
 
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.image?r_{xy}=\frac{\sum_{i=1}^n(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum_{i=1}^n(x_i-\bar{x})^2}\sqrt{\sum_{i=1}^n(y_i-\bar{y})^2}}" title="Pearson Correlation Coefficient in a Sample" />
-</p>
+$$r_{xy} = \frac{\sum_{i=1}^n(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum_{i=1}^n(x_i-\bar{x})^2}\sqrt{\sum_{i=1}^n(y_i-\bar{y})^2}}$$
 
 where r_xy is the Pearson correlation coefficient between X and Y, n is the number of observations in the sample, x_i and y_i are the values of X and Y respectively for the i-th observation in the sample, x̄ and ȳ are the sample means of X and Y respectively.
 
