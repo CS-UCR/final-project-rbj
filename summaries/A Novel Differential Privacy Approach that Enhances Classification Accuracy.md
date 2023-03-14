@@ -9,10 +9,6 @@ In order to achieve an adequate level of protective privacy for the individuals 
 ## Related Works
 The content of this article is concerning the the recent studies found in privacy preserving data publishing and the usability of the said datasets. There are a number of related works in this study that have been produced by different authors and researchers, and the article takes a dive into each of these different techniques and algorithms that have been executed. 
 
-Two individuals by the name of L. Fan and H. Jin were able to implement two methods called the Hand-picked Algorithm (HPA) and Simple random algorithm (SRA). These two techniques are variations of $l$-diversity and utilize the Laplace mechanism to add noise for the sake of adding more security to individual data. These authors were able to satisfy $\epsilon$-differential privacy requirements with these methods and pulled their data from four real-world datasets: Gowalla, Foursquare, Netflix, and Movie-Lens.
-
-
-
 ## Proposed System and Experimental Design
 The research work presented here is seeking to develop a differentially private PPDP (Privacy Preserving Data Publishing) system. One of the main goals here is to publish usable and secure data for different applications like classification. 
 
@@ -33,7 +29,7 @@ Ultimately, the following formula gives us $e$-differential privacy.
 $$\hat{f}(DB) = f(DB) + lap( {1 \over \epsilon})$$
 
 ### Exponential Mechanism
-The exponential mechanism is used to handle non-numeric data. The input is a dataset $DB$, output range $\tau$, privacy parameter $\epsilon$, and function $u : (DB x \tau) &\rightarrow R$. The sensitivity of the function is given with the following:
+The exponential mechanism is used to handle non-numeric data. The input is a dataset $DB$, output range $\tau$, privacy parameter $\epsilon$, and function $u : (DB x \tau) \rightarrow R$. The sensitivity of the function is given with the following:
 $$\Delta u = max_{\Delta_(t, DB, \hat{DB})}|u(DB,t)=(\hat{DB},t)|$$
 The probability associated with every output is proportional with 
 $$e^{\epsilon u(DB,t) \over 2 \Delta u}$$
