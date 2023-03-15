@@ -74,7 +74,7 @@ $$lim_{t \rightarrow 0}(T((1-t)P+t \delta_x)-T(P))/t$$
 Point estimators uses a similar notation as the robust statistics estimator. This mechanism will take $D$ and split it into $k$ subsets. The differentially private mean of all $T(D_i)$ is used to approximate the value of function $T(D)$. The following conditions will determine accuracy of this estimator:
 $${{T(D)-T(P)} \over {\sigma p / \sqrt{n}}} \rightarrow N(0,1)$$
 $$when$$
-$$ n \rightarrow +\infin$$
+$$n \rightarrow +\infin$$
 $$E[T(D)]-T(P)= O(1/n)$$
 $$E[{({{|T(D)-T(P)|} \over {\sigma p/\sqrt{n}}})^3}] = O(1)$$
 ### M-estimator
