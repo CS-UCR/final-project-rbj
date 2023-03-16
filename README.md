@@ -22,4 +22,4 @@ Our project will involve researching differential privacy and its implementation
 
 ### Dataset 
 
-- [https://www.ibm.com/communities/analytics/watson-analytics-blog/marketing-customer-value-analysis/](https://www.ibm.com/communities/analytics/watson-analytics-blog/marketing-customer-value-analysis/)
+- [https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data)
