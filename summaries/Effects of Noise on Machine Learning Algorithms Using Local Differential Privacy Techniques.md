@@ -25,7 +25,7 @@ where |x| is the absolute value of x, and b is the scale parameter that controls
 
 $$r_{xy} = \frac{\sum (x - \bar{x})(y - \bar{y})}{\sqrt{\sum (x - \bar{x})^2} \sqrt{\sum (y - \bar{y})^2}}$$
 
-where r_xy is the Pearson correlation coefficient between X and Y, n is the number of observations in the sample, x_i and y_i are the values of X and Y respectively for the i-th observation in the sample, x̄ and ȳ are the sample means of X and Y respectively.
+where $r_xy$ is the Pearson correlation coefficient between X and Y, n is the number of observations in the sample, $x_i$ and $y_i$ are the values of X and Y respectively for the i-th observation in the sample, x̄ and ȳ are the sample means of X and Y respectively.
 
 ## Methodology
 
