@@ -23,3 +23,17 @@ Our project will involve researching differential privacy and its implementation
 ### Dataset 
 
 - [https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data)
+
+### Running the notebook on Jupyter or Google Colab
+
+To run this notebook on Jupyter or Google Colab, please follow these steps:
+
+1. Clone the repository or download the notebook file.
+2. Upload the notebook to your Jupyter or Google Colab workspace.
+3. Install any required packages by running the following command in a code cell:
+
+```ipython
+!pip install pandas numpy sklearn plotly
+```
+
+4. Run the code cells in the notebook to reproduce the results.
