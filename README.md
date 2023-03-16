@@ -22,7 +22,7 @@ Our project will involve researching differential privacy and its implementation
 
 ### Dataset 
 
-- [https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data)
+- [https://archive.ics.uci.edu/ml/datasets/iris](https://archive.ics.uci.edu/ml/datasets/iris)
 
 ### Running the notebook on Jupyter or Google Colab
 
@@ -37,3 +37,7 @@ To run this notebook on Jupyter or Google Colab, please follow these steps:
 ```
 
 4. Run the code cells in the notebook to reproduce the results.
+
+
+<!-- ### Slides
+Slides used for the presentation can be found [here](link here). -->
