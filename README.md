@@ -27,7 +27,8 @@ Our project will involve researching differential privacy and its implementation
 
 ### Implementation
 - We have implemented a simple machine learning algorithm to predict the species of the flower based on the features. 
-- We have used the K-Nearest Neighbors, Logistic Regression, Random Forest Classifier algorithms to predict the species of the flower. This algorithm is inspired by the [Effects of Noise on Machine Learning Algorithms Using Local Differential Privacy Techniques](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9422609) paper.
+- For adding the noise to dataset we have implemented an algorithm which adds either Gaussian noise or Categorical noise depending on the feature type. This algorithm is inspired by the [Effects of Noise on Machine Learning Algorithms Using Local Differential Privacy Techniques](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9422609) paper.
+- We have used the K-Nearest Neighbors, Logistic Regression, Random Forest Classifier algorithms to predict the species of the flower. 
 - We have used the [scikit-learn](https://scikit-learn.org/stable/) library to implement the algorithm. We have used the [plotly](https://plotly.com/python/) library to visualize the data.
 - We have trained the model before and after adding noise with these models and have found some results
     - The accuracy of the model is not affected by the noise added to the data.
