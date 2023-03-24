@@ -49,27 +49,39 @@ To run this notebook on Jupyter or Google Colab, please follow these steps:
 
 4. Run the code cells in the notebook to reproduce the results.
 
+For the other python script: 
+1. Clone the repository or download the python script file.
+2. Run the python script file in your terminal or command prompt.
+
+```bash
+git clone https://github.com/CS-UCR/final-project-rbj.git
+cd final-project-rbj/src
+python3 file.py
+```
+
 
 ### Slides
 Slides used for the presentation can be found [here](https://docs.google.com/presentation/d/e/2PACX-1vTPQGlRAhgOtQvznw7oWjcxE_dYr9pThI7dvekNsARCBShW2id5omxDBPrh8o7MP90w_s9XXHlaMb1B/pub?start=true&loop=true&delayms=3000).
 
 
 ### Changes after Presentation
-- We have been asked why we took only the noise factor into account when calculating the accuracy of the model. We have added a script that calculates the accuracy of the model with various noise factor. The results of an instance are shown below.
+- We have been asked why we took only the noise factor of `0.4` into account when calculating the accuracy of the model. We have added a script that calculates the accuracy of the model with various noise factor. The results are not consistent and vary from run to run. The results of an instance are shown below.
 
 ```json
-{0.1: 0.96,
- 0.2: 0.9466666666666667,
- 0.3: 0.94,
- 0.4: 0.94,
- 0.5: 0.9666666666666667,
- 0.6: 0.6066666666666667,
- 0.7: 0.9533333333333334,
- 0.8: 0.7466666666666667,
- 0.9: 0.62}
+{
+    0.1: 0.96,
+    0.2: 0.9466666666666667,
+    0.3: 0.94,
+    0.4: 0.94,
+    0.5: 0.9666666666666667,
+    0.6: 0.6066666666666667,
+    0.7: 0.9533333333333334,
+    0.8: 0.7466666666666667,
+    0.9: 0.62
+}
 ```
 
-on multiple runs of the algorithm we have found that the noise factor `0.4` is getting highest accuracy compared to other values. The above results are the best score of [1000 runs](https://github.com/CS-UCR/final-project-rbj/blob/97376dd3ead49435b07e8ba294b3d8c5a11d678e/src/file.py#L79C26-L88) of the algorithm.
+on multiple runs of the algorithm we have found that the noise factor `0.4` is getting highest accuracy compared to other values. The above results are the best score of [1000 runs](https://github.com/CS-UCR/final-project-rbj/blob/97376dd3ead49435b07e8ba294b3d8c5a11d678e/src/file.py#L79C26-L88) of the algorithm. We have used this to determine the noise factor for our algorithm before the presentation but have not put it in the presentation slides or the notebook. We have added the script to the repository now. 
 
 ### Conclusion
 - We have learned about the concept of differential privacy and its implementation into various techniques of data analysis. 
