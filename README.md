@@ -67,7 +67,7 @@ Slides used for the presentation can be found [here](https://docs.google.com/pre
 ### Changes after Presentation
 - We have been asked why we took only the noise factor of `0.4` into account when calculating the accuracy of the model. We have added a script that calculates the accuracy of the model with various noise factor. The results are not consistent and vary from run to run. The results of an instance are shown below.
 
-```json
+```python
 {
     0.1: 0.96,
     0.2: 0.9466666666666667,
